@@ -11,43 +11,15 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
 
 3. Informações Relevantes e Dados Necessários para o MER
    
-   |              Informações Relevantes                |                                            Dados Necessários                                                    |
-   |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-   | Qual cultura plantada em cada área e quando        | Nome da cultura, data da plantação, área de plantio Identificador do plantio (para vincular outras informações).|
-   | Quantidade de H2O aplicada em cada plantio por mês.| Data e hora da aplicação de água, quantidade de água Identificador do plantio.|
-   
-   
-   | Variação do nível de PH do solo ao      | Data e hora da leitura do sensor de ph, valor do ph         |
-   | longo do tempo do plantio.              | registrado, Itendificador do plantio.                       |
-   |                                         |                                                             |
-   | Variação dos níveis de nutrientes       | Data e hora da leitura do sensor de nutrientes,             |
-   | (P e K) ao longo do tempo.              | valor do (P), valor do (K), Identificador do plantio.       |
-   |                                         |                                                             |
-   | Dados brutos coletados pelos sensores   | Identificador do sensor (S1), data e hora da leitura,       |
-   | de umidade para cada plantio.           | valor da leitura da umidade (%), Identificador do plantio.  |
-   |                                         |                                                             |
-   | Dados brutos coletados pelos sensores   | Identificador do sensor (S2), data e hora da leitura,       |
-   | de ph para cada plantio.                | valor da leitura, Identificador do plantio.                 |
-   |                                         |                                                             |
-   | Dados brutos coletados pelos sensores   | Identificador do sensor (S3), data e hora da leitura,       |
-   | de nutrientes (NPK) para cada plantio.  | valor da leitura do potássio, valor da leitura do fósforo,  |
-   | OBS: P = Fósforo / K = Potássio.        | Identificador do plantio.                                   |
-   |                                         |                                                             |
-   | Informações sobre diferentes culturas   | Nome da cultura, descrição da cultura, requisitos de umidade|
-   | plantadas (características gerais).     | ideais, requisitos de ph ideais, requisitos de nutrientes   |
-   |                                         | (P e K) ideais.                                             |
-   |                                         |                                                             |
-   | Informações das características dos     | Identificador do sensor, tipo de sensor (S1), (S2), (S3)    |
-   | sensores utilizados.                    | marca do sensor, modelo do sensor, n° de série do sensor    |
-   |                                         | data de instalação.                                         |
-   |                                         |                                                             |
-   | Informações sobre a aplicação de H2O    | Identificador da aplicação de H2O, data e hora da aplicação,|
-   | realizadas em cada plantio.             | quantidade de H2O aplicada, metodo de aplicação,            |
-   |                                         | Identificador do plantio.                                   |
-   |                                         |                                                             |
-   | Informações sobre a aplicação dos       | Identificador da aplicação de nutrientes, data e hora da    |
-   | nutrientes em cada plantio.             | aplicação, quantidade de (P) aplicada, quantidade de (K)    |
-   |                                         | aplicada, tipo de fertilizante, Identificador de palntio.   |
-   |                                         |                                                             |
-
-
+   |              Informações Relevantes                                                                            |                                            Dados Necessários                                                    |
+   |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+   | Qual cultura plantada em cada área e quando                                                                    | Nome da cultura, data da plantação, área de plantio Identificador do plantio (para vincular outras informações).|
+   | Quantidade de H2O aplicada em cada plantio por mês.                                                            | Data e hora da aplicação de água, quantidade de água Identificador do plantio.|
+   | Variação do nível de PH do solo ao longo do tempo do plantio.                                                  | Data e hora da leitura do sensor de ph, valor do ph registrado, Itendificador do plantio.|         
+   | Variação dos níveis de nutrientes (P e K) ao longo do tempo.                                                   | Data e hora da leitura do sensor de nutrientes, valor do (P), valor do (K), Identificador do plantio.|                                                    
+   | Dados brutos coletados pelos sensores de umidade para cada plantio.                                            | Identificador do sensor (S1), data e hora da leitura, valor da leitura da umidade (%), Identificador do plantio.|                                            | Dados brutos coletados pelos sensores de ph para cada plantio.                                                 | Identificador do sensor (S2), data e hora da leitura, valor da leitura, Identificador do plantio.|                                                           | Dados brutos coletados pelos sensores de nutrientes (NPK) para cada plantio. OBS: P = Fósforo / K = Potássio.  | Identificador do sensor (S3), data e hora da leitura, valor da leitura do potássio, valor da leitura do fósforo, Identificador do plantio.|                  | Informações sobre diferentes culturas plantadas (características gerais).                                      | Nome da cultura, descrição da cultura, requisitos de umidade ideais, requisitos de ph ideais, requisitos de nutrientes (P e K) ideais.|
+   | Informações das características dos sensores utilizados.                                                       | Identificador do sensor, tipo de sensor (S1), (S2), (S3) marca do sensor, modelo do sensor, n° de série do sensor data de instalação.|     
+   | Informações sobre a aplicação de H2O realizadas em cada plantio.                                               | Identificador da aplicação de H2O, data e hora da aplicação, quantidade de H2O aplicada, metodo de aplicação, Identificador do plantio.|    
+   | Informações sobre a aplicação dos nutrientes em cada plantio.                                                  | Identificador da aplicação de nutrientes, data e hora da aplicação, quantidade de (P) aplicada, quantidade de (K) aplicada, tipo de fertilizante, 
+  Identificador de palntio.|     
+  
