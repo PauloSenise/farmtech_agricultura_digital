@@ -87,4 +87,20 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `DataInicioPlantio` **(date)**: Data de início do plantio
    * `DataFimPlantio` **(date, NULLABLE)**: Data de fim do plantio
 
+   ## Relacionamentos:
+   * Um **Produtor** pode ter **muitas** **Culturas** (1:N).
+   * Um **Produtor** pode ter **muitos** **Talhões** (1:N).
+   * Um **Talhão** pode ter **muitos** **Sensores** (1:N).
+   * Um **Sensor** pode gerar **muitas** **LeiturasSensor** (1:N).
+   * Uma **LeituraSensor** pertence a **um** **Sensor** (1:1 em relação ao FK).
+   * Uma **LeituraSensor** é feita em **um** **Talhão** (1:1 em relação ao FK).
+   * Um **Talhão** pode ter **muitas** **Aplicações de Água** (1:N).
+   * Uma **Aplicação de Água** é feita em **um** **Talhão** (1:1 em relação ao FK).
+   * Um **Talhão** pode ter **muitas** **Aplicações de Nutriente** (1:N).
+   * Uma **Aplicação de Nutriente** é feita em **um** **Talhão** (1:1 em relação ao FK).
+   * Uma **Cultura** pode estar em **muitos** **Plantios** (1:N).
+   * Um **Talhão** pode ter **muitos** **Plantios** (1:N).
+   * Um **Plantio** envolve **uma** **Cultura** (1:1 em relação ao FK).
+   * Um **Plantio** ocorre em **um** **Talhão** (1:1 em relação ao FK).
+
 
