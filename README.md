@@ -1,15 +1,15 @@
-1. 🌱 Farmtech Solutions - Agricultura Digital - Modelagem de Banco de dados 🤖
+1. 🌱**Farmtech Solutions - Agricultura Digital - Modelagem de Banco de dados** 🤖
 
 A Farmtech Solutions está desenvolvendo um projeto voltado à Agricultura Digital, cujo objetivo é modelar um banco de dados relacional para o
 monitoramento inteligente de plantações, com auxílio de sensores para coleta de dados, tais como: umidade, pH, nutrientes (fósforo F e potássio K) do solo.
 Este repositório contém todos os artefatos relacionados à modelagem do sistema, incluindo o MER, DER, scripts SQL e a documentação técnica.
 
-2. 👁️ Cenário
+2. 👁️ **Cenário**
 
 Um produtor rural utiliza sensores para aplicar a quantidade certa de água e nutrientes em diferentes culturas. 
 O sistema registra dados em tempo real e sugere ajustes para otimizar os recursos e aumentar a produtividade.
 
-3. Informações Relevantes e Dados Necessários para o MER
+3. **Informações Relevantes e Dados Necessários para o MER**
    
    | Informações Relevantes | Dados Necessários |
    |:-----------------------|:------------------|
@@ -24,4 +24,10 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    | Informações das características dos sensores utilizados.| Identificador do sensor, tipo de sensor (S1), (S2), (S3) marca do sensor, modelo do sensor, n° de série do sensor data de instalação.|
    | Informações sobre a aplicação de H2O realizadas em cada plantio.| Identificador da aplicação de H2O, data e hora da aplicação, quantidade de H2O aplicada, metodo de aplicação, Identificador do plantio.|
    | Informações sobre a aplicação dos nutrientes em cada plantio.| Identificador da aplicação de nutrientes, data e hora da aplicação, quantidade de (P), quantidade de (K), tipo de fertilizante,Identificador de palntio.|
-  
+
+4. # Modelo Entidade-Relacionamento (MER) - Projeto Farmtech Solutions
+   Este documento descreve o Modelo Entidade-Relacionamento (MER) para o sistema de agricultura digital da FarmTech Solutions, modelando o armazenamento e análise de dados de sensores.
+   ## Criação das Entidades e Atributos MER 
+
+   ### Produtor
+   * `ID_Produtor`
