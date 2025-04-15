@@ -10,7 +10,7 @@ Um produtor rural utiliza sensores para aplicar a quantidade certa de água e nu
 O sistema registra dados em tempo real e sugere ajustes para otimizar os recursos e aumentar a produtividade.
 
 3. Informações Relevantes e Dados Necessários para o MER
-   |:----------------------:|:-----------------:|
+   
    | Informações Relevantes | Dados Necessários |
    |:-----------------------|:------------------|
    | Qual cultura plantada em cada área e quando.| Nome da cultura, data da plantação, área de plantio Identificador do plantio (para vincular outras informações).|
