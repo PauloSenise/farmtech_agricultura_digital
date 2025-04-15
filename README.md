@@ -30,62 +30,62 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    ## Criação das Entidades e Atributos MER 
 
    ### Produtor
-   * `ID_Produtor` **(PK, Integer)**: Identificador único do produtor
-   * `NomeProdutor` **(Varchar)**: Nome do produtor
+   * `ID_Produtor` **(PK, Integer)**: Identificador único do produtor.
+   * `NomeProdutor` **(Varchar)**: Nome do produtor.
 
    ### Cultura
-   * `ID_Cultura` **(PK, Integer)**: Identificador único da cultura
-   * `NomeCultura` **(Varchar)**: Nome da cultura
-   * `DescricaoCultura` **(Varchar)**: Descrição da cultura
-   * `UmidadeIdeal` **(Double)**: Valor de referência da umidade ideal para essa cultura
-   * `PHideal` **(Double)**: Valor de referência do (PH) ideal para essa cultura
-   * `FosforoIdeal` **(Double)**: Valor de referência do (P) ideal para essa cultura
-   * `PotassioIdeal` **(Double)**: Valor de referência do (K) ideal para essa cultura
+   * `ID_Cultura` **(PK, Integer)**: Identificador único da cultura.
+   * `NomeCultura` **(Varchar)**: Nome da cultura.
+   * `DescricaoCultura` **(Varchar)**: Descrição da cultura.
+   * `UmidadeIdeal` **(Double)**: Valor de referência da umidade ideal para essa cultura.
+   * `PHideal` **(Double)**: Valor de referência do (PH) ideal para essa cultura.
+   * `FosforoIdeal` **(Double)**: Valor de referência do (P) ideal para essa cultura.
+   * `PotassioIdeal` **(Double)**: Valor de referência do (K) ideal para essa cultura.
 
    ### Talhão
-   * `ID_Talhao` **(PK, Integer)**: Identificador únido do talhão
-   * `NomeTalhao` **(Varchar)**: Nome do talhão
-   * `AreaTalhao` **(Double)**: Área do talhão
+   * `ID_Talhao` **(PK, Integer)**: Identificador únido do talhão.
+   * `NomeTalhao` **(Varchar)**: Nome do talhão.
+   * `AreaTalhao` **(Double)**: Área do talhão.
 
    ### Sensor
-   * `ID_Sensor` **(PK, Integer)**: Identificador único do sensor
-   * `TipoSensor` **(Varchar)**: Tipo de sensor S1, S2, S3
-   * `MarcaSensor` **(Varchar)**: Fabricante do sensore
-   * `ModeloSensor` **(Varchar)**: Modelo do sensor
-   * `SerieSensor` **(Integer)**: Número de série do sensor
-   * `DataInstalacaoSensor` **(Date)**: Data de instalaçao do sensor
+   * `ID_Sensor` **(PK, Integer)**: Identificador único do sensor.
+   * `TipoSensor` **(Varchar)**: Tipo de sensor S1, S2, S3.
+   * `MarcaSensor` **(Varchar)**: Fabricante do sensore.
+   * `ModeloSensor` **(Varchar)**: Modelo do sensor.
+   * `SerieSensor` **(Integer)**: Número de série do sensor.
+   * `DataInstalacaoSensor` **(Date)**: Data de instalaçao do sensor.
 
    ### LeituraSensor
-   * `ID_Leitura` **(PK, Integer)**: Identificador único da leitura
-   * `ID_Sensor` **(FK, Integer)**: Identificador do sensor que realizou a leitura (referência `Sensor`)
-   * `ID_Talhao` **(FK, Integer)**: Identificador do talhão onde a leitura foi feita (referencia `Talhao`)
-   * `DataHoraLeitura` **(TimeStamp)**: Data e hora da leitura
-   * `ValorLeitura` **(Double)**: Valor da leitura (genérico)
-   * `ValorUmidade` **(Double, NULLABLE)**: Valor da umidade (`TipoSensor` = 'S1')
-   * `ValorpH` **(Double, NULLABLE)**: Valor do pH (`TipoSensor` = 'S2')
-   * `ValorFosforo` **(Double, NULLABLE)**: Valor do fósforo (`TipoSensor` = 'S3')
-   * `ValorPotassio` **(Double, NULLABLE)**: Valor do potássio (`TipoSensor` = 'S3')
+   * `ID_Leitura` **(PK, Integer)**: Identificador único da leitura.
+   * `ID_Sensor` **(FK, Integer)**: Identificador do sensor que realizou a leitura (referência `Sensor`).
+   * `ID_Talhao` **(FK, Integer)**: Identificador do talhão onde a leitura foi feita (referencia `Talhao`).
+   * `DataHoraLeitura` **(TimeStamp)**: Data e hora da leitura.
+   * `ValorLeitura` **(Double)**: Valor da leitura (genérico).
+   * `ValorUmidade` **(Double, NULLABLE)**: Valor da umidade (`TipoSensor` = 'S1').
+   * `ValorpH` **(Double, NULLABLE)**: Valor do pH (`TipoSensor` = 'S2').
+   * `ValorFosforo` **(Double, NULLABLE)**: Valor do fósforo (`TipoSensor` = 'S3').
+   * `ValorPotassio` **(Double, NULLABLE)**: Valor do potássio (`TipoSensor` = 'S3').
 
    ### Aplicação de Água
-   * `ID_AplicacaoAgua` **(PK, integer)**: Identificador único da aplicação
-   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a água foi aplicada (referencia `Talhao`)
-   * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação
-   * `QuantidadeAguaAplicada` **(double)**: Quantidade de água aplicada
+   * `ID_AplicacaoAgua` **(PK, integer)**: Identificador único da aplicação.
+   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a água foi aplicada (referencia `Talhao`).
+   * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação.
+   * `QuantidadeAguaAplicada` **(double)**: Quantidade de água aplicada.
    
    ### Aplicação de Nutriente
-   * `ID_AplicacaoNutriente` **(PK, integer)**: Identificador único da aplicação
-   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde os nutrientes foram aplicados (referencia `Talhao`)
-   * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação
-   * `QuantidadeFosforo` **(double)**: Quantidade de fósforo aplicada
-   * `QuantidadePotassio` **(double)**: Quantidade de potássio aplicada
-   * `QuantidadeNitrogenio` **(double, NULLABLE)**: Quantidade de nitrogênio aplicada
+   * `ID_AplicacaoNutriente` **(PK, integer)**: Identificador único da aplicação.
+   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde os nutrientes foram aplicados (referencia `Talhao`).
+   * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação.
+   * `QuantidadeFosforo` **(double)**: Quantidade de fósforo aplicada.
+   * `QuantidadePotassio` **(double)**: Quantidade de potássio aplicada.
+   * `QuantidadeNitrogenio` **(double, NULLABLE)**: Quantidade de nitrogênio aplicada.
    
    ### Plantio (Tabela de Ligação)
-   * `ID_Plantio` **(PK, integer)**: Identificador único do plantio
-   * `ID_Cultura` **(FK, integer)**: Identificador da cultura plantada (referencia `Cultura`)
-   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a cultura foi plantada (referencia `Talhao`)
-   * `DataInicioPlantio` **(date)**: Data de início do plantio
-   * `DataFimPlantio` **(date, NULLABLE)**: Data de fim do plantio
+   * `ID_Plantio` **(PK, integer)**: Identificador único do plantio.
+   * `ID_Cultura` **(FK, integer)**: Identificador da cultura plantada (referencia `Cultura`).
+   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a cultura foi plantada (referencia `Talhao`).
+   * `DataInicioPlantio` **(date)**: Data de início do plantio.
+   * `DataFimPlantio` **(date, NULLABLE)**: Data de fim do plantio.
 
    ## Relacionamentos:
    * Um **Produtor** pode ter **muitas** **Culturas** (1:N).
