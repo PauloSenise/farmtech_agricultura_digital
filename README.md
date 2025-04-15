@@ -11,8 +11,8 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
 
 3. Informações Relevantes e Dados Necessários para o MER
    
-   | Informações Relevantes  | Dados Necessários |
-   |-------------------------|-------------------|
+   | Informações Relevantes                                                                                       | Dados Necessários |
+   |--------------------------------------------------------------------------------------------------------------|-------------------|
    | Qual cultura plantada em cada área e quando.                                                                 | Nome da cultura, data da plantação, área de plantio Identificador do plantio (para vincular outras informações).|
    | Quantidade de H2O aplicada em cada plantio por mês.                                                          | Data e hora da aplicação de água, quantidade de água Identificador do plantio.|
    | Variação do nível de PH do solo ao longo do tempo do plantio.                                                | Data e hora da leitura do sensor de ph, valor do ph registrado, Itendificador do plantio.|
