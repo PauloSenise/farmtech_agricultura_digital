@@ -30,4 +30,12 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    ## Criação das Entidades e Atributos MER 
 
    ### Produtor
-   * `ID_Produtor`
+   * `ID_Produtor` **(PK, Integer)**: Identificador único do produtor
+   * `NomeProdutor` **(VARCHAR)**: Nome do produtor
+
+   ### Cultura
+   * `ID_Cultura` **(PK, INTEGER)**: Identificador único da cultura
+   * `NomeCultura` **(VARCHAR)**: Nome da cultura
+   * `DescricaoCultura` **(VARCHAR)**: Descrição da cultura
+   * `UmidadeIdeal` **(DOUBLE)**: Valor de referencia da umidade ideal para essa cultura
+   * 
