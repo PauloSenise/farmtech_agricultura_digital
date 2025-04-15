@@ -43,17 +43,17 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `PotassioIdeal` **(DOUBLE)**: Valor de referência do (K) ideal para essa cultura
 
    ### Talhão
-   `ID_Talhao` **(PK, INTEGER)**: Identificador únido do talhão
-   `NomeTalhao` **(VARCHAR)**: Nome do talhão
-   `AreaTalhao` **(DOUBLE)**: Área do talhão
+   * `ID_Talhao` **(PK, INTEGER)**: Identificador únido do talhão
+   * `NomeTalhao` **(VARCHAR)**: Nome do talhão
+   * `AreaTalhao` **(DOUBLE)**: Área do talhão
 
    ### Sensor
-   `ID_Sensor` **(PK, INTEGER)**: Identificador único do sensor
-   `TipoSensor` **(VARCHAR)**: Tipo de sensor S1, S2, S3
-   `MarcaSensor` **(VARCHAR)**: Fabricante do sensore
-   `ModeloSensor` **(VARCHAR)**: Modelo do sensor
-   `SerieSensor` **(VARCHAR)**: Número de série do sensor
-   `DataInstalacaoSensor` **(DATE)**: Data de instalaçao do sensor
+   * `ID_Sensor` **(PK, INTEGER)**: Identificador único do sensor
+   * `TipoSensor` **(VARCHAR)**: Tipo de sensor S1, S2, S3
+   * `MarcaSensor` **(VARCHAR)**: Fabricante do sensore
+   * `ModeloSensor` **(VARCHAR)**: Modelo do sensor
+   * `SerieSensor` **(VARCHAR)**: Número de série do sensor
+   * `DataInstalacaoSensor` **(DATE)**: Data de instalaçao do sensor
 
 
 
