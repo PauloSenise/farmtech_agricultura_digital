@@ -37,5 +37,9 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `ID_Cultura` **(PK, INTEGER)**: Identificador único da cultura
    * `NomeCultura` **(VARCHAR)**: Nome da cultura
    * `DescricaoCultura` **(VARCHAR)**: Descrição da cultura
-   * `UmidadeIdeal` **(DOUBLE)**: Valor de referencia da umidade ideal para essa cultura
-   * 
+   * `UmidadeIdeal` **(DOUBLE)**: Valor de referência da umidade ideal para essa cultura
+   * `PHideal` **(DOUBLE)**: Valor de referência do (PH) ideal para essa cultura
+   * `Pideal` **(DOUBLE)**: Valor de referência do (P) ideal para essa cultura
+   * `Kideal` **(DOUBLE)**: Valor de referência do (K) ideal para essa cultura
+
+   ### Talhão
