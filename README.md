@@ -66,6 +66,27 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `ValorFosforo` **(DOUBLE, NULLABLE)**: Valor do fósforo (`TipoSensor` = 'S3')
    * `ValorPotassio` **(DOUBLE, NULLABLE)**: Valor do potássio (`TipoSensor` = 'S3')
 
+   ### Aplicacao Agua
+   * `ID_AplicacaoAgua` **(PK, integer)**: Identificador único da aplicação
+   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a água foi aplicada (referencia `Talhao`)
+   * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação
+   * `QuantidadeAguaAplicada` **(double)**: Quantidade de água aplicada
+   
+   ### AplicacaoNutriente
+   * `ID_AplicacaoNutriente` **(PK, integer)**: Identificador único da aplicação
+   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde os nutrientes foram aplicados (referencia `Talhao`)
+   * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação
+   * `QuantidadeFosforo` **(double)**: Quantidade de fósforo aplicada
+   * `QuantidadePotassio` **(double)**: Quantidade de potássio aplicada
+   * `QuantidadeNitrogenio` **(double, NULLABLE)**: Quantidade de nitrogênio aplicada
+   
+   ### Plantio (Tabela de Ligação)
+   * `ID_Plantio` **(PK, integer)**: Identificador único do plantio
+   * `ID_Cultura` **(FK, integer)**: Identificador da cultura plantada (referencia `Cultura`)
+   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a cultura foi plantada (referencia `Talhao`)
+   * `DataInicioPlantio` **(date)**: Data de início do plantio
+   * `DataFimPlantio` **(date, NULLABLE)**: Data de fim do plantio
+
 
 
 
