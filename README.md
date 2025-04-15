@@ -52,8 +52,19 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `TipoSensor` **(VARCHAR)**: Tipo de sensor S1, S2, S3
    * `MarcaSensor` **(VARCHAR)**: Fabricante do sensore
    * `ModeloSensor` **(VARCHAR)**: Modelo do sensor
-   * `SerieSensor` **(VARCHAR)**: Número de série do sensor
+   * `SerieSensor` **(INTEGER)**: Número de série do sensor
    * `DataInstalacaoSensor` **(DATE)**: Data de instalaçao do sensor
+
+   ### LeituraSensor
+   * `ID_Leitura` **(PK, INTEGER)**: Identificador único da leitura
+   * `ID_Sensor` **(FK, INTEGER)**: Identificador do sensor que realizou a leitura (referência `Sensor`)
+   * `ID_Talhao` **(FK, INTEGER)**: Identificador do talhão onde a leitura foi feita (referencia `Talhao`)
+   * `DataHoraLeitura` **(TIMESTAMP)**: Data e hora da leitura
+   * `ValorLeitura` **(DOUBLE)**: Valor da leitura (genérico)
+   * `ValorUmidade` **(DOUBLE, NULLABLE)**: Valor da umidade (`TipoSensor` = 'S1')
+   * `ValorpH` **(DOUBLE, NULLABLE)**: Valor do pH (`TipoSensor` = 'S2')
+   * `ValorFosforo` **(DOUBLE, NULLABLE)**: Valor do fósforo (`TipoSensor` = 'S3')
+   * `ValorPotassio` **(DOUBLE, NULLABLE)**: Valor do potássio (`TipoSensor` = 'S3')
 
 
 
