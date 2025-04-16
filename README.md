@@ -17,12 +17,12 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    | Características do plantio.| **Identificador do plantio**, data inicial do plantio, data final de plantio.|
    | Sobre a área de plantio - talhão.| **Identificador do talhão**, Nome do talhão, área do talhão.|
    | Qual cultura plantada em cada área e quando.| **Identificador da cultura**, Nome da cultura, data da plantação, área de plantio, **Identificador do plantio** (para vincular outras informações).|
+   | Água aplicada em cada plantio por mês.| **Identificador da água**, Data e hora da aplicação de água, quantidade de água **Identificador do plantio**.|
    | Sensores utilizados e suas características.| **Identificador do sensor**, tipo de sensor (***S1***), (***S2***), (***S3***) marca do sensor, modelo do sensor, n° de série do sensor data de instalação.|
    | Dados brutos coletados pelos sensores de umidade para cada plantio.| **Identificador do sensor** (***S1***), data e hora da leitura, valor da leitura da umidade (***%***), **Identificador do plantio**.|
    | Dados brutos coletados pelos sensores de ***PH*** para cada plantio.| **Identificador do sensor** (***S2***), data e hora da leitura, valor da leitura, Identificador do plantio.|
    | Dados brutos coletados pelos sensores de nutrientes (***NPK***) para cada plantio.***OBS:*** ***P*** = Fósforo / ***K*** = Potássio.| **Identificador do sensor** (***S3***), data e hora da leitura, valor da leitura do potássio, valor da leitura do fósforo, **Identificador do plantio**.|
    | Informações sobre diferentes culturas plantadas (características gerais).| Nome da cultura, descrição da cultura, requisitos de umidade ideais, requisitos de ph ideais, requisitos de nutrientes Fósforo (***P***) e Potássio (***K***) ideais.|
-   | Quantidade de ***H2O*** aplicada em cada plantio por mês.| Data e hora da aplicação de água, quantidade de água **Identificador do plantio**.|
    | Variação do nível de ***PH*** do solo ao longo do tempo do plantio.| Data e hora da leitura do sensor de ***PH***, valor do ***PH*** registrado, **Itendificador do plantio**.|
    | Variação dos níveis de nutrientes (***P e K***) ao longo do tempo.| Data e hora da leitura do sensor de nutrientes, valor do (***P***), valor do (***K***), **Identificador do plantio**.|
    | Informações sobre a aplicação de ***H2O*** realizadas em cada plantio.| **Identificador da aplicação** de ***H2O***, data e hora da aplicação, quantidade de ***H2O*** aplicada, metodo de aplicação, **Identificador do plantio**.|
