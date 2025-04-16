@@ -13,12 +13,12 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    
    | Informações Relevantes | Dados Necessários |
    |:-----------------------|:------------------|
-   | Produtor.| **Identificador do produtor**, Nome do produtor rural.|
+   | Produtor.| **Identificador do produtor**, nome do produtor rural.|
    | Características do plantio.| **Identificador do plantio**, data inicial do plantio, data final de plantio.|
-   | Sobre a área de plantio - talhão.| **Identificador do talhão**, Nome do talhão, área do talhão.|
-   | Qual cultura plantada em cada área e quando.| **Identificador da cultura**, Nome da cultura, data da plantação, área de plantio, **Identificador do plantio** (para vincular outras informações).|
-   | Água aplicada em cada plantio por mês.| **Identificador da água**, Data e hora da aplicação de água, quantidade de água **Identificador do plantio**.|
-   | Sensores utilizados e suas características.| **Identificador do sensor**, tipo de sensor (***S1***), (***S2***), (***S3***) marca do sensor, modelo do sensor, n° de série do sensor data de instalação.|
+   | Sobre a área de plantio - talhão.| **Identificador do talhão**, nome do talhão, área do talhão.|
+   | Qual cultura plantada em cada área e quando.| **Identificador da cultura**, nome da cultura, descrição da cultura, (Umidade, PH, Fósforo e Potássio) ideal para cada cultura, data da plantação, área de plantio, **Identificador do plantio** (para vincular outras informações).|
+   | Água aplicada em cada plantio por mês.| **Identificador da água**, data e hora da aplicação de água, quantidade de água **Identificador do plantio**.|
+   | Sensores utilizados e suas características.| **Identificador do sensor**, tipo de sensor (***S1***), (***S2***), (***S3***) marca do sensor, modelo do sensor, n° de série do sensor, data de instalação.|
    | Dados brutos coletados pelos sensores de umidade para cada plantio.| **Identificador do sensor** (***S1***), data e hora da leitura, valor da leitura da umidade (***%***), **Identificador do plantio**.|
    | Dados brutos coletados pelos sensores de ***PH*** para cada plantio.| **Identificador do sensor** (***S2***), data e hora da leitura, valor da leitura, Identificador do plantio.|
    | Dados brutos coletados pelos sensores de nutrientes (***NPK***) para cada plantio.***OBS:*** ***P*** = Fósforo / ***K*** = Potássio.| **Identificador do sensor** (***S3***), data e hora da leitura, valor da leitura do potássio, valor da leitura do fósforo, **Identificador do plantio**.|
@@ -44,6 +44,8 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `PHideal` **(Double)**: Valor de referência do (PH) ideal para essa cultura.
    * `FosforoIdeal` **(Double)**: Valor de referência do (P) ideal para essa cultura.
    * `PotassioIdeal` **(Double)**: Valor de referência do (K) ideal para essa cultura.
+   * `DataPlantacao` **(Date)**: Data da plantação.
+   * `ÁreaPlantio` **(Integer)**: Área total de plantio.
 
    ### Talhão
    * `ID_Talhao` **(PK, Integer)**: Identificador únido do talhão.
