@@ -15,7 +15,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    |:-----------------------|:------------------|
    | Identificação do produtor.| Nome do produtor rural.|
    | Qual cultura plantada em cada área e quando.| Nome da cultura, data da plantação, área de plantio, Identificador do plantio (para vincular outras informações).|
-   | Informações sobre diferentes culturas plantadas (características gerais).| Nome da cultura, descrição da cultura, requisitos de umidade ideais, requisitos de ph ideais, requisitos de nutrientes (P e K) ideais.|
+   | Informações sobre diferentes culturas plantadas (características gerais).| Nome da cultura, descrição da cultura, requisitos de umidade ideais, requisitos de ph ideais, requisitos de nutrientes Fósforo *P* e Potássio *K* ideais.|
    | Informações sobre a área de plantio.| Nome do talhão, área do talhão.|
    | Quantidade de H2O aplicada em cada plantio por mês.| Data e hora da aplicação de água, quantidade de água Identificador do plantio.|
    | Informações das características dos sensores utilizados.| Identificador do sensor, tipo de sensor (S1), (S2), (S3) marca do sensor, modelo do sensor, n° de série do sensor data de instalação.|
