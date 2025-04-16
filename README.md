@@ -103,9 +103,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * Uma **Aplicação de Água** é feita em **um** **Talhão** (1:1 em relação ao FK).
    * Um **Talhão** pode ter **muitas** **Aplicações de Nutriente** (1:N).
    * Uma **Aplicação de Nutriente** é feita em **um** **Talhão** (1:1 em relação ao FK).
-   * Uma **Cultura** pode estar em **muitos** **Plantios** (1:N).
-   * Um **Talhão** pode ter **muitos** **Plantios** (1:N).
+   * Uma **Cultura** pode ser plantada em **muitos** **Talhões**, e um **Talhão** pode ter **muitas** **Culturas** plantadas (N:N), relacionamento modelado pela tabela de ligação **Plantio**.
    * Um **Plantio** envolve **uma** **Cultura** (1:1 em relação ao FK).
    * Um **Plantio** ocorre em **um** **Talhão** (1:1 em relação ao FK).
-
 
