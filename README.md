@@ -104,4 +104,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * Uma **Cultura** pode ser plantada em **muitos** **Talhões**, e um **Talhão** pode ter **muitas** **Culturas** plantadas (N:N).
    * Um **Plantio** envolve **uma** **Cultura** (1:1 em relação ao FK).
    * Um **Plantio** ocorre em **um** **Talhão** (1:1 em relação ao FK).
+   * Um **Plantio** tem várias **Leitura de Sensores** (1:N).
+   * Um **Plantio** tem várias **Aplicação de Água** (1:N).
+   * Um **Plantio** tem várias **Aplicação de Nutrientes** (1:N). 
 
