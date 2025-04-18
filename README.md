@@ -63,7 +63,6 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `ID_Sensor` **(FK, Integer)**: Identificador do sensor que realizou a leitura (referência `Sensor`).
    * `ID_Plantio` **(FK, Integer)**: Identificador do plantio onde a leitura foi feita (referencia `Plantio`).
    * `DataHoraLeitura` **(TimeStamp)**: Data e hora da leitura.
-   * `ValorLeitura` **(Double)**: Valor da leitura (genérico).
    * `ValorUmidade` **(Double, NULLABLE)**: Valor da umidade (`TipoSensor` = 'S1').
    * `ValorpH` **(Double, NULLABLE)**: Valor do pH (`TipoSensor` = 'S2').
    * `ValorFosforo` **(Double, NULLABLE)**: Valor do fósforo (`TipoSensor` = 'S3').
