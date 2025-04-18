@@ -44,9 +44,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `PHideal` **(Double)**: Valor de referência do (PH) ideal para essa cultura.
    * `FosforoIdeal` **(Double)**: Valor de referência do (P) ideal para essa cultura.
    * `PotassioIdeal` **(Double)**: Valor de referência do (K) ideal para essa cultura.
-   * `DataPlantacao` **(Date)**: Data da plantação.
-   * `ÁreaPlantio` **(Integer)**: Área total de plantio.
-
+   
    ### Talhão
    * `ID_Talhao` **(PK, Integer)**: Identificador únido do talhão.
    * `NomeTalhao` **(Varchar)**: Nome do talhão.
@@ -91,6 +89,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a cultura foi plantada (referencia `Talhao`).
    * `DataInicioPlantio` **(date)**: Data de início do plantio.
    * `DataFimPlantio` **(date, NULLABLE)**: Data de fim do plantio.
+   * `ÁreaPlantio` **(Integer)**: Área total de plantio.
 
    ## 5. Relacionamentos e suas Cardinalidades:
    * Um **Produtor** pode ter **muitos** **Talhões** (1:N).
