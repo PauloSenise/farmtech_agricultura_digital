@@ -93,7 +93,6 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `DataFimPlantio` **(date, NULLABLE)**: Data de fim do plantio.
 
    ## 5. Relacionamentos e suas Cardinalidades:
-   * Um **Produtor** pode ter **muitas** **Culturas** (1:N).
    * Um **Produtor** pode ter **muitos** **Talhões** (1:N).
    * Um **Talhão** pode ter **muitos** **Sensores** (1:N).
    * Um **Sensor** pode gerar **muitas** **LeiturasSensor** (1:N).
