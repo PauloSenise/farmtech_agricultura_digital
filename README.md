@@ -80,6 +80,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    ### Aplicação de Nutriente
    * `ID_AplicacaoNutriente` **(PK, Integer)**: Identificador único da aplicação.
    * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde os nutrientes foram aplicados (referencia `Talhao`).
+   * `ID_Plantio` **(FK, Integer)**: Identificador em qual plantio onde o nutriente foi aplicado.
    * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação.
    * `QuantidadeFosforo` **(double)**: Quantidade de fósforo aplicada.
    * `QuantidadePotassio` **(double)**: Quantidade de potássio aplicada.
