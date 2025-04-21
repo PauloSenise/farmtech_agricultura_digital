@@ -53,6 +53,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
 
    ### Sensor
    * `ID_Sensor` **(PK, Integer)**: Identificador único do sensor.
+   * `ID_Talhão` **(PK, Integer)**: Identificador único do talhão.
    * `TipoSensor` **(Varchar)**: Tipo de sensor S1, S2, S3.
    * `MarcaSensor` **(Varchar)**: Fabricante do sensore.
    * `ModeloSensor` **(Varchar)**: Modelo do sensor.
