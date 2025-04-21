@@ -47,13 +47,13 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    
    ### Talhão
    * `ID_Talhao` **(PK, Integer)**: Identificador únido do talhão.
-   * `ID_Produtor` **(FK, Integer)** Identificador único do produtor.
+   * `ID_Produtor` **(FK, Integer)** Identificador do produtor.
    * `NomeTalhao` **(Varchar)**: Nome do talhão.
    * `AreaTalhao` **(Double)**: Área do talhão.
 
    ### Sensor
    * `ID_Sensor` **(PK, Integer)**: Identificador único do sensor.
-   * `ID_Talhão` **(FK, Integer)**: Identificador único do talhão.
+   * `ID_Talhão` **(FK, Integer)**: Identificador do talhão onde o sensor foi instalado.
    * `TipoSensor` **(Varchar)**: Tipo de sensor S1, S2, S3.
    * `MarcaSensor` **(Varchar)**: Fabricante do sensore.
    * `ModeloSensor` **(Varchar)**: Modelo do sensor.
@@ -73,7 +73,7 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    ### Aplicação de Água
    * `ID_AplicacaoAgua` **(PK, Integer)**: Identificador único da aplicação.
    * `ID_Talhao` **(FK, Integer)**: Identificador do talhão onde a água foi aplicada (referencia `Talhao`).
-   * `ID_Plantio` **(FK, Integer)**
+   * `ID_Plantio` **(FK, Integer)**: Identificador em qual plantio onde a água foi aplicada.
    * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação.
    * `QuantidadeAguaAplicada` **(double)**: Quantidade de água aplicada.
    
