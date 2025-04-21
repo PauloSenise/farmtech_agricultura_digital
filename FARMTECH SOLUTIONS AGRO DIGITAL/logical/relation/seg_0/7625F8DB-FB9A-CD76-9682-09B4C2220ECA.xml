@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="plantar" directorySegmentName="seg_0" id="7625F8DB-FB9A-CD76-9682-09B4C2220ECA">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 12:20:34 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<sourcePk>77827790-C1F6-5384-703F-D6CB42090698</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6C0E2552-007D-1CAF-9BF4-447E42795921</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>146E29A1-280B-4514-4C6B-EC6E986DEFEE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="data_inicial_plantio" id="2A6BD210-04B7-83C6-1BF2-647386F60135">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 12:22:21 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="data_final_plantio" id="EB150A7F-7640-3C55-F37E-0E963DBCDFA4">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 12:22:58 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

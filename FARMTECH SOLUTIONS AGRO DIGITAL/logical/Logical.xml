@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="EBBDA725-CF83-82F6-E973-714D45BE192A" mainViewID="F66AE31F-649B-CAFC-3C92-9175E0D1BC34">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-17 22:04:49 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

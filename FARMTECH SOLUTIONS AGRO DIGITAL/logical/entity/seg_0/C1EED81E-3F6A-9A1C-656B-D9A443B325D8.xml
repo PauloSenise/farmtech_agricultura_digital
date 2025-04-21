@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1EED81E-3F6A-9A1C-656B-D9A443B325D8" name="LEITURA_SENSOR">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:08:19 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_leitura" id="1EAA230E-ECF3-6942-0C06-03B799A3ED9C">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:08:38 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sensor" id="6311DEA8-550C-EF38-BCD4-01615DBDE2D7">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 17:31:40 UTC</createdTime>
+<generatorID>BE447F16-5295-2DC8-2CEA-4DA6B7471732</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<referedAttribute>43C10D09-F181-C433-E41E-C2F05B67062F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plantio" id="1872B9C5-075F-BA52-8E03-26B6F9B1CAF8">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 18:02:47 UTC</createdTime>
+<generatorID>451DDB64-243D-9224-A712-AEE485065BF4</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<referedAttribute>CDDFD134-8275-E633-C435-D83579A23D54</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora_leitura" id="3B703BCD-DFC7-BCB3-F847-A13C4A76D986">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:08:54 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_umidade" id="12705811-EEC8-DA80-BFAB-8EB9FCC41CCB">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:09:51 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_ph" id="FAE7EF20-26E1-E0A4-0604-5D35402EC97D">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:10:05 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_fosforo" id="8CD4238D-9E67-545A-7553-37BB350D6FF3">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:10:17 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_potassio" id="EE0BECE3-65ED-F356-3CC9-C2FC531D2489">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:10:30 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="723EA93A-0A54-4EC3-17E5-AE430A0A45DC" name="LEITURA_SENSOR PK">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:08:52 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1EAA230E-ECF3-6942-0C06-03B799A3ED9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

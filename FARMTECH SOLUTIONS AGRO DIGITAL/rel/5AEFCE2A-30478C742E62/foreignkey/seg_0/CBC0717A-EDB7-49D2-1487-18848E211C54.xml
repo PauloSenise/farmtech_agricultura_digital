@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CBC0717A-EDB7-49D2-1487-18848E211C54" containerWithKeyObject="220341C6-FFD7-EEEE-6F14-D70439735D89" localFKIndex="D791792D-8D42-7F2A-7A84-3B47C51EA2B6" name="FK_TALH_PRODUTOR">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>8FBAA5DD-B395-6537-D869-C42A38993309</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<referredTableLongName>PRODUTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F41F5596-02AC-B01E-FA57-7124683B05F7</referredTableID>
+<keyObject>8DABC453-2567-1338-B7F4-5A18B981A3B1</keyObject>
+<referredKeyID>8DABC453-2567-1338-B7F4-5A18B981A3B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produtor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

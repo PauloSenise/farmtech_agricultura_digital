@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A8257F5D-C670-A74A-7F71-E1FE8977DB54" name="SENSORES">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>CE4AAC07-9E64-2C78-35CE-C0169115EBB1</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="5FF0DA19-B97B-BDD2-798A-DE82AA422A66">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>43C10D09-F181-C433-E41E-C2F05B67062F</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_talhao" id="6B9A05FC-44C2-EBC4-CEFF-FACC0B852F73">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>AFF1F1D1-7986-6B10-3932-10EF34A8F44A</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01B93250-F255-DDAA-65BB-9F3AB2B03205" referredColumn="9151F538-ED7A-0BEE-5990-FCB35044BF89"/>
+</associations>
+</Column>
+<Column name="tipo_sensor" id="C728DB70-8C03-8B5D-20D8-E7E99E2599BC">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>626FC761-84FA-4869-A9ED-5F999DCABB40</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="marca_sensor" id="6980D81A-04F4-B537-18AE-7360125B8692">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>181D0CF1-30E8-E8B7-5696-071473A703F9</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo_sensor" id="7BE2D93C-DEDF-E5EE-AC3D-EA752BF25E64">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>AFB8C877-AE9A-2576-8C6E-7FA6DB95D68D</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="serie_sensor" id="DFF3088D-7186-677B-E7F9-5567DB0920D7">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>29C94BDA-D2B5-0F32-73EA-FB27C9D6D950</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_instalacao_sensor" id="94D208D3-1DA8-FF27-1660-3973EE2787E4">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>3728E839-215C-D571-EA17-52CEAE60FC94</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7170F516-FDEF-6398-0681-78475BD99587" name="PK_SENSORES">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>394A29C8-25A9-743C-0F13-9D0DC399935E</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FF0DA19-B97B-BDD2-798A-DE82AA422A66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2B8FD8B-E3D8-479C-5391-C9AF368DDE14" name="FK_SENS_TALH">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>1655CA62-E7F9-F887-F6A8-EFE2A953A6C9</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B9A05FC-44C2-EBC4-CEFF-FACC0B852F73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

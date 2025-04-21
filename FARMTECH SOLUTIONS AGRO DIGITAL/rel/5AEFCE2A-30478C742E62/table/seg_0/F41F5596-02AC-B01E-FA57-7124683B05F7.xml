@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F41F5596-02AC-B01E-FA57-7124683B05F7" name="PRODUTOR">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>36DA1710-81FC-49FF-1F82-53541AAD54D2</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produtor" id="A0436C7D-B0FC-6AE7-F3DD-02FE042BAF18">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>15834959-5264-4C52-75E1-3A166A09D972</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_produtor" id="F09C969F-DA1C-FA69-5295-9303D733B31D">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>5EE42900-1A51-49DF-89F2-21670E5ED792</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DABC453-2567-1338-B7F4-5A18B981A3B1" name="PK_PRODUTOR">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>D4882746-D9AF-631C-B983-40969EEB31E0</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0436C7D-B0FC-6AE7-F3DD-02FE042BAF18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B03ADC88-7A3A-09F1-0FF9-872E4C10D235" name="UN_PRODUTOR_NAME">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 20:12:02 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F09C969F-DA1C-FA69-5295-9303D733B31D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

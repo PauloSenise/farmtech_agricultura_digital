@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="146E29A1-280B-4514-4C6B-EC6E986DEFEE" name="PLANTIO">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:14:38 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plantio" id="CDDFD134-8275-E633-C435-D83579A23D54">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:14:45 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_talhao" id="8977557B-2C83-EB82-8CA2-1853D1A80FAB">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 12:20:34 UTC</createdTime>
+<generatorID>7625F8DB-FB9A-CD76-9682-09B4C2220ECA</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<referedAttribute>C8580352-80DD-7E09-1637-E0586CF4CE01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura" id="B450EC21-A06E-F1B0-73AE-B5BFDDED19E8">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 12:40:32 UTC</createdTime>
+<generatorID>D485004F-73D4-CCB5-DC10-7E7DAB89417B</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<referedAttribute>EBDD0F28-E68E-EA27-CBD7-C60153CA6BD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio_plantio" id="5973DD08-A66E-5EC7-7E32-5B91347127F7">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:14:54 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_final_plantio" id="1BFBB057-93A0-C3DB-91FC-3E7E78F68818">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:15:12 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="area_plantio" id="35D40C5E-BEC3-BBA0-4547-962C62638BCF">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 20:47:53 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2F17F4A-2B2F-61A1-9B0B-FA812E4E059B" name="PLANTIO PK">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:14:53 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CDDFD134-8275-E633-C435-D83579A23D54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

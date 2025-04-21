@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="297F5409-0F50-DFD0-E72F-983B83149693" name="APLICACAO_DE_AGUA">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:10:56 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_aplic_agua" id="F79D30C7-52CC-D2E5-A61D-FE7DBC230A5E">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:11:23 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_talhao" id="40AAB2F2-1F6C-89F3-7E9C-5DEFEB4D496C">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 13:24:52 UTC</createdTime>
+<generatorID>D131645A-A70F-F2DA-947D-8CC7136671A5</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<referedAttribute>C8580352-80DD-7E09-1637-E0586CF4CE01</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plantio" id="3FC22E97-B4B3-0316-3786-8427EA431DF1">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 18:03:45 UTC</createdTime>
+<generatorID>06DD2CDB-388A-AE61-F23D-03791EE5F799</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<referedAttribute>CDDFD134-8275-E633-C435-D83579A23D54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora_aplic" id="A4F28467-A651-620B-73CD-DA6AA436DEB1">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:11:42 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_agua_aplic" id="DA31AF20-5B42-B7A7-D90D-E4B9184B0643">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:11:58 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5F3078E5-6DA9-7E26-E333-EF6247E57989" name="APLICACAO_DE_AGUA PK">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 00:11:41 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F79D30C7-52CC-D2E5-A61D-FE7DBC230A5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

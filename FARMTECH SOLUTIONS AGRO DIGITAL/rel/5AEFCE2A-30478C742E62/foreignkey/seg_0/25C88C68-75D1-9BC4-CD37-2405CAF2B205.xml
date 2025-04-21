@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="25C88C68-75D1-9BC4-CD37-2405CAF2B205" containerWithKeyObject="699D9319-F4B5-B253-C7BC-881C0EABCA6A" localFKIndex="60202DC2-1F99-B6DF-F040-7E2CB8068597" name="FK_LEIT_SENS_PLANT">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>451DDB64-243D-9224-A712-AEE485065BF4</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<referredTableLongName>PLANTIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>37861789-8401-C6E8-C721-A88647DA1AF9</referredTableID>
+<keyObject>281CB09B-1D8C-FF6F-8CFD-76A7094E0BC1</keyObject>
+<referredKeyID>281CB09B-1D8C-FF6F-8CFD-76A7094E0BC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_plantio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

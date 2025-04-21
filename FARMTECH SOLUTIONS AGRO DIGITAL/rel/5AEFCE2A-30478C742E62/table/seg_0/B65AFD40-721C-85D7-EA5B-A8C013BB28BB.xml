@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B65AFD40-721C-85D7-EA5B-A8C013BB28BB" name="APLICACAO_DE_AGUA">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>297F5409-0F50-DFD0-E72F-983B83149693</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aplic_agua" id="7B8FA288-C6A4-9B47-AB1E-D30E8A946AD9">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>F79D30C7-52CC-D2E5-A61D-FE7DBC230A5E</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_talhao" id="D0FE5441-A748-0D5A-123C-70C946590EF5">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>40AAB2F2-1F6C-89F3-7E9C-5DEFEB4D496C</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8827C854-2E98-7439-3058-3058B0DC595C" referredColumn="9151F538-ED7A-0BEE-5990-FCB35044BF89"/>
+</associations>
+</Column>
+<Column name="id_plantio" id="E898D9DD-D320-ACC0-A377-8F775E8910A2">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>3FC22E97-B4B3-0316-3786-8427EA431DF1</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4989B359-3F38-AEF6-9664-C710C61EDAF8" referredColumn="91696DD3-EA51-85D8-3D9D-B1A05C5FA724"/>
+</associations>
+</Column>
+<Column name="data_hora_aplic" id="7AF9DFD3-9F64-7335-AF40-C7FBA98DF291">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>A4F28467-A651-620B-73CD-DA6AA436DEB1</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qtd_agua_aplic" id="AC328AC7-F33E-CB3C-5B41-64BCBD032D4B">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>DA31AF20-5B42-B7A7-D90D-E4B9184B0643</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EAFAB39-BCAA-4338-5FF7-C4207F8A3262" name="PK_APLICACAO_DE_AGUA">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>5F3078E5-6DA9-7E26-E333-EF6247E57989</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B8FA288-C6A4-9B47-AB1E-D30E8A946AD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66106685-2799-B928-D9A4-3797BBEB246C" name="FK_APLIC_DE_AGUA_TALH">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>D131645A-A70F-F2DA-947D-8CC7136671A5</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0FE5441-A748-0D5A-123C-70C946590EF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EC69BE4-EDA5-7A85-94AC-626F836AA332" name="FK_APLIC_DE_AGUA_PLANT">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>06DD2CDB-388A-AE61-F23D-03791EE5F799</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E898D9DD-D320-ACC0-A377-8F775E8910A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

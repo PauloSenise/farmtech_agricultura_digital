@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ler" directorySegmentName="seg_0" id="BE447F16-5295-2DC8-2CEA-4DA6B7471732">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-18 17:31:40 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<engineerTo>
+<item key="5AEFCE2A-2A31-1919-B2E4-30478C742E62" value="true"/>
+</engineerTo>
+<sourcePk>394A29C8-25A9-743C-0F13-9D0DC399935E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CE4AAC07-9E64-2C78-35CE-C0169115EBB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C1EED81E-3F6A-9A1C-656B-D9A443B325D8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

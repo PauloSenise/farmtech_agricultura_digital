@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FARMTECH SOLUTIONS AGRO DIGITAL" id="6F995D88-E909-7498-21F5-C85AAD06794A" version="3.5">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-17 22:04:49 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6F995D88-E909-7498-21F5-C85AAD06794A</designId>
+</OSDM_Design>

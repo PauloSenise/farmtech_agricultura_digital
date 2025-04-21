@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="37861789-8401-C6E8-C721-A88647DA1AF9" name="PLANTIO">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>146E29A1-280B-4514-4C6B-EC6E986DEFEE</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plantio" id="91696DD3-EA51-85D8-3D9D-B1A05C5FA724">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>CDDFD134-8275-E633-C435-D83579A23D54</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_talhao" id="183F01D0-A368-1A7A-D69F-4DD126D43124">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>8977557B-2C83-EB82-8CA2-1853D1A80FAB</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4699763-0A87-83D3-52BF-0152CB507CB6" referredColumn="9151F538-ED7A-0BEE-5990-FCB35044BF89"/>
+</associations>
+</Column>
+<Column name="id_cultura" id="729A1106-0652-AC9C-16C5-2C79E5E970E4">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>B450EC21-A06E-F1B0-73AE-B5BFDDED19E8</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1679322-6198-624D-70DF-C27CCBFDB1F5" referredColumn="E7D8A325-66AF-EA3B-322B-BDC3E4004092"/>
+</associations>
+</Column>
+<Column name="data_inicio_plantio" id="3B4201C3-77D8-876C-8D2C-C4E41571CB5E">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>5973DD08-A66E-5EC7-7E32-5B91347127F7</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_final_plantio" id="10B25DE0-454F-6878-7177-B6ECD637AE14">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>1BFBB057-93A0-C3DB-91FC-3E7E78F68818</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_plantio" id="CE8EFC85-5981-D7C0-A2FB-5C04883F8DDF">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 20:50:05 UTC</createdTime>
+<generatorID>35D40C5E-BEC3-BBA0-4547-962C62638BCF</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="281CB09B-1D8C-FF6F-8CFD-76A7094E0BC1" name="PK_PLANTIO">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>A2F17F4A-2B2F-61A1-9B0B-FA812E4E059B</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91696DD3-EA51-85D8-3D9D-B1A05C5FA724"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7196D7C-0FAA-AE0C-4E46-0BC37B3695B6" name="FK_PLANT_TALH">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>7625F8DB-FB9A-CD76-9682-09B4C2220ECA</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183F01D0-A368-1A7A-D69F-4DD126D43124"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A95C187-859F-E7D4-807B-1942649A6F50" name="FK_PLANT_CULT">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 19:46:39 UTC</createdTime>
+<generatorID>D485004F-73D4-CCB5-DC10-7E7DAB89417B</generatorID>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="729A1106-0652-AC9C-16C5-2C79E5E970E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_PLANTIO_DATA" directorySegmentName="seg_0" id="5FAD08DD-627E-2C2B-20AA-1AADA852626C">
+<createdBy>paulo</createdBy>
+<createdTime>2025-04-21 20:18:49 UTC</createdTime>
+<ownerDesignName>FARMTECH SOLUTIONS AGRO DIGITAL</ownerDesignName>
+<rule><![CDATA[DATA_FINAL > DATA_INICIAL]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>
