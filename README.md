@@ -47,13 +47,13 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    
    ### Talhão
    * `ID_Talhao` **(PK, Integer)**: Identificador únido do talhão.
-   * `ID_Produtor` **(PK, Integer)** Identificador único do produtor.
+   * `ID_Produtor` **(FK, Integer)** Identificador único do produtor.
    * `NomeTalhao` **(Varchar)**: Nome do talhão.
    * `AreaTalhao` **(Double)**: Área do talhão.
 
    ### Sensor
    * `ID_Sensor` **(PK, Integer)**: Identificador único do sensor.
-   * `ID_Talhão` **(PK, Integer)**: Identificador único do talhão.
+   * `ID_Talhão` **(FK, Integer)**: Identificador único do talhão.
    * `TipoSensor` **(Varchar)**: Tipo de sensor S1, S2, S3.
    * `MarcaSensor` **(Varchar)**: Fabricante do sensore.
    * `ModeloSensor` **(Varchar)**: Modelo do sensor.
@@ -71,13 +71,14 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `ValorPotassio` **(Double, NULLABLE)**: Valor do potássio (`TipoSensor` = 'S3').
 
    ### Aplicação de Água
-   * `ID_AplicacaoAgua` **(PK, integer)**: Identificador único da aplicação.
-   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a água foi aplicada (referencia `Talhao`).
+   * `ID_AplicacaoAgua` **(PK, Integer)**: Identificador único da aplicação.
+   * `ID_Talhao` **(FK, Integer)**: Identificador do talhão onde a água foi aplicada (referencia `Talhao`).
+   * `ID_Plantio` **(FK, Integer)**
    * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação.
    * `QuantidadeAguaAplicada` **(double)**: Quantidade de água aplicada.
    
    ### Aplicação de Nutriente
-   * `ID_AplicacaoNutriente` **(PK, integer)**: Identificador único da aplicação.
+   * `ID_AplicacaoNutriente` **(PK, Integer)**: Identificador único da aplicação.
    * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde os nutrientes foram aplicados (referencia `Talhao`).
    * `DataHoraAplicacao` **(timestamp)**: Data e hora da aplicação.
    * `QuantidadeFosforo` **(double)**: Quantidade de fósforo aplicada.
@@ -85,9 +86,9 @@ O sistema registra dados em tempo real e sugere ajustes para otimizar os recurso
    * `QuantidadeNitrogenio` **(double, NULLABLE)**: Quantidade de nitrogênio aplicada.
    
    ### Plantio (Tabela de Ligação)
-   * `ID_Plantio` **(PK, integer)**: Identificador único do plantio.
-   * `ID_Cultura` **(FK, integer)**: Identificador da cultura plantada (referencia `Cultura`).
-   * `ID_Talhao` **(FK, integer)**: Identificador do talhão onde a cultura foi plantada (referencia `Talhao`).
+   * `ID_Plantio` **(PK, Integer)**: Identificador único do plantio.
+   * `ID_Cultura` **(FK, Integer)**: Identificador da cultura plantada (referencia `Cultura`).
+   * `ID_Talhao` **(FK, Integer)**: Identificador do talhão onde a cultura foi plantada (referencia `Talhao`).
    * `DataInicioPlantio` **(date)**: Data de início do plantio.
    * `DataFimPlantio` **(date, NULLABLE)**: Data de fim do plantio.
    * `ÁreaPlantio` **(Integer)**: Área total de plantio.
